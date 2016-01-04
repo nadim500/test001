@@ -4,9 +4,9 @@
 function saludos(){
 	console.log("hola a todos");
 }
-
 saludos();
 */
+
 
 //Declarar una funcion y la llamas ahora
 /*
@@ -15,11 +15,10 @@ saludos();
 })();
 */
 
-
+/*
 var saludos = function (){
 	console.log("hola a todos");
 }
-
 saludos();
-
+*/
 
