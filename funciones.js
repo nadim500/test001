@@ -20,7 +20,7 @@ var saludos = function (){
 	console.log("hola a todos");
 }
 saludos();
-*/
+
 //ejemplo:
 var square = function(x){
 	return x*x;
@@ -71,3 +71,22 @@ function power(base, exponent) {
     result *= base;
   return result;
 }
+*/
+function multiplier(factor){
+	return function(number){
+		return number*factor;
+	}
+}
+var twice = multiplier(2);
+console.log(twice);
+console.log(twice(5));
+//ejemplo:
+function min(a,b){
+	var minimo;
+	if(a>b)
+		minimo=b;
+	else
+		minimo=a;
+	return minimo;
+}
+console.log(min(4,5));
