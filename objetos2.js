@@ -1,4 +1,3 @@
-/*
 //ejemplo: creacion de objeto con sus atributos
 var anObject = {left:1,rigth:2};
 console.log(anObject.left);
@@ -75,7 +74,7 @@ console.log(remove(["a", "b", "c", "d", "e"], 2));
 //remueve los espacios en blanco (spaces, newlines, tabs, and similar characters)
 console.log("  okay \n ".trim());
 // → okay
-*/
+
 //Uso del operador arguments:
 function argumentCounter() {
   console.log("You gave me", arguments.length, "arguments.");
