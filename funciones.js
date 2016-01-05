@@ -62,3 +62,12 @@ var landscape = function() {
 };
 
 console.log(landscape());
+
+function power(base, exponent) {
+  if (exponent == undefined)
+    exponent = 2;
+  var result = 1;
+  for (var count = 0; count < exponent; count++)
+    result *= base;
+  return result;
+}
